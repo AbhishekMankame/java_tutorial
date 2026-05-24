@@ -1,0 +1,4 @@
+--> We can use jshell to write the Java codes in terminal.
+--> To exit out of jshell, we can give /exit and enter, or /q and enter.
+
+--> To compile the Java code javac, then mention the file name.
