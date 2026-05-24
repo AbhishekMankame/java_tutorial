@@ -2,3 +2,5 @@
 --> To exit out of jshell, we can give /exit and enter, or /q and enter.
 
 --> To compile the Java code javac, then mention the file name.
+--> Once we execute javac Hello.java it will generate the Hello.class which will contain the byte code
+--> Then we need to execute "Java Hello", this will print the output.
