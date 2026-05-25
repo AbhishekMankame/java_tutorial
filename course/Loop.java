@@ -17,5 +17,11 @@ public class Loop {
         }
         while(j<=4);
 
+        // For loop
+        for(int it=1;it<=10;it++){
+            System.out.println("HI: "+it);
+        }
+
+
     }
 }
