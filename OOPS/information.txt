@@ -1,0 +1,9 @@
+## OOPS (Object-Oriented Programming)
+Here in OOPS we have concept of object and class
+Object -> Object will have properties and behaviours
+
+To create an object in Java, we need to create class
+In Java, the object is created by JVM.
+
+We will create a class file and this class file will get compiled to create a byte code.
+That byte code goes to the JVM and that's where we get the object.
