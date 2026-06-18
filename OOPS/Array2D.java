@@ -1,6 +1,37 @@
 class Array2D {
     public static void main(String a[]) {
         int nums[][] = new int[3][4];
+
+        int n = nums.length;
+        int m = nums[0].length;
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        int random = (int)(Math.random()*100);
+        System.out.println("Random value generated using Math.random(): " + random);
+
+        // Assigning random values to the 2D array
+        System.out.println();
+        System.out.println("Let's assign some random values to the elements of the array");
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                nums[i][j] = (int)(Math.random()*100);
+            }
+        }
+
+        // Let's print the array
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
 
