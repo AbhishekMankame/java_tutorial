@@ -32,6 +32,14 @@ class Array2D {
             }
             System.out.println();
         }
+        System.out.println();
+        // Enhanced for loop
+        for(int n1[]:nums){
+            for(int m1:n1){
+                System.out.print(m1 + " ");
+            }
+            System.out.println();
+        }
     }
 }
 
