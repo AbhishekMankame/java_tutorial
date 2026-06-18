@@ -43,6 +43,8 @@ class Array2D {
     }
 }
 
+// Enhanced 2D for loop is a nested for-each loop used to traverse all elements of a 2D array without using row and column indices.
+
 
 
 /*
