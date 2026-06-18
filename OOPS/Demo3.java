@@ -1,4 +1,7 @@
 class Calculator2 {
+
+    int num = 4;
+
     public int add(int n1, int n2){
         return n1 + n2;
     }
@@ -21,6 +24,13 @@ public class Demo3 {
         int r2 = obj.add(5,4,3);
         System.out.println(r2);
         System.out.println(obj.add(3.453, 5.432));
+
+        System.out.println(obj.num);
+
+        Calculator2 obj1 = new Calculator2();
+
+        obj1.num = 6;
+        System.out.println(obj1.num);
     }
 }
 
