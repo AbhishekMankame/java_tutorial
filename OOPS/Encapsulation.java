@@ -9,11 +9,11 @@ class Human {
         return age; // Here we can access the age variable inside a method of a same class
     }
 
-    public String getName() {
+    public String getName() { // this is called 'getter '
         return name;
     }
 
-    public void setAge(int a) {
+    public void setAge(int a) { // this is callled 'setter'
         age = a;
     }
 
