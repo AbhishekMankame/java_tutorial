@@ -40,6 +40,12 @@ class ArrayObj {
         for(int i=0;i<students.length;i++){
             System.out.println(students[i].name + " " + students[i].rollNo + " " + students[i].marks);
         }
+        
+        // Using enhanced for loop
+        System.out.println();
+        for(Student stud: students){
+            System.out.println(stud.name + " : " + stud.rollNo + " : " + stud.marks);
+        }
 
         // int nums[] = new int[4];
         // nums[0] = 4;
