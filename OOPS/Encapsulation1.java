@@ -33,6 +33,11 @@ class Human {
         name = "John";
     }
 
+    public Human(int a, String n) {     // Parameterized Constructor
+        age = a;
+        name = n;
+    }
+
     /*
     Note: Constructor has a same name as that of the class name.
     Constructor never returns anything.
@@ -41,12 +46,26 @@ class Human {
     Imp: Everytime we create the object, it will call the constructor
     
     */
+
+    /*
+    - Normal constructor is called default constructor
+
+    Note: When we started this example of Human, we were not having any constructor, it was still working.
+    If we don't mention constructor there, java will create a constructor for you, that's why we say that is default constructor.
+    Behind the scene we will get 
+    public Human() {
+    
+    }
+    */
 }
 
 class Encapsulation1 {
     public static void main(String a[]) {
         Human obj = new Human();
-        // Human obj1 = new Human();
+        Human obj1 = new Human(18, "Navin");
+
+        System.out.println(obj.getName() + " : " + obj.getAge());
+        System.out.println(obj1.getName() + " : " + obj1.getAge());
 
         System.out.println(obj.getName());
         System.out.println(obj.getAge());
