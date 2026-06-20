@@ -1,2 +1,2 @@
 # java_tutorial
-Hi ............
+This repository contains Java concepts and practice programs
