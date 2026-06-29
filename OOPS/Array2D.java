@@ -45,8 +45,6 @@ class Array2D {
 
 // Enhanced 2D for loop is a nested for-each loop used to traverse all elements of a 2D array without using row and column indices.
 
-
-
 /*
 Note: In 2-D array (2 dimension array) we can skip dimensions only from left to right
 - For a multidimensional array, you must specify dimensions in order from the first dimension onward.
