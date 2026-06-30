@@ -57,7 +57,6 @@ pubilc class Main() {
 }
 
 ### Comparison
-
 Method   Description    Recommended
 Extending Thread  Your class becomes a thread  Only for simple examples
 Implementing Runnable  Your class define a task, and a Thread executes it  Yes
